@@ -26,6 +26,6 @@ User the existing code as a reference.
 
 You will also need to make sure that your server is using the `cors` middleware.
 Instructions for adding cors:
-`npm i --save cors`
-`const cors = require('cors')`;
-`app.use(cors());`
+* `npm i --save cors`
+* `const cors = require('cors');`
+* `app.use(cors());`
