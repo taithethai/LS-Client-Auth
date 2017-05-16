@@ -3,6 +3,7 @@
 ## Packages
 
 * `redux-thunk`
+* `cors`
 
 ## Topics
 
@@ -22,3 +23,9 @@ Complete the SignUp component.  When the user fills out the form you should send
 axios POST request to the server to save the user to the database.  If successful then you
 should save the provided JWT to localStorage and then redirect the user to `/users`.
 User the existing code as a reference.
+
+You will also need to make sure that your server is using the `cors` middleware.
+Instructions for adding cors:
+`npm i --save cors`
+`const cors = require('cors')`;
+`app.use(cors());`
