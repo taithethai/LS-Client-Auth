@@ -36,6 +36,12 @@ export const signIn = (email, password, history) => {
   };
 };
 
+export const signUp = (email, password, confirmPassword, history) => {
+  return (dispatch) => {
+    
+  }
+};
+
 export const getUsers = () => {
   return (dispatch) => {
     const token = localStorage.getItem('token');
